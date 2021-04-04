@@ -1,0 +1,5 @@
+/help commands
+# installing tensorflow
+ conda create -n tf tensorflow
+ conda activate
+ 
