@@ -8,6 +8,6 @@ em, strong {
 }
 
 h1 {
-  padding: 50px; 
-  border: 1px solid #5D6063; /* draws a thin grey line around the heading*/
+  padding: 50px;
+  border-bottom: 1px solid #5D6063; /* draws a thin grey line under the heading*/
 }
