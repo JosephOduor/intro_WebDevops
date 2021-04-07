@@ -50,3 +50,7 @@ a:active {
 a:visited:hover{
   color: orange;
 }
+
+a:visited:active {
+  color: red;
+}
