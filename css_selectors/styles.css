@@ -46,3 +46,7 @@ a:hover {
 a:active {
   color: red;
 }
+
+a:visited:hover{
+  color: orange;
+}
