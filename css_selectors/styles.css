@@ -6,9 +6,13 @@
   color: #7E8184; /*light gray*/
   font-style: italic;
 
+/*pseudo class selector for buttons*/
 }
+.button:link,
+.button:visited {
+  display:block;
+  text-decoration: none;
 
-.button {
   color: #FFF;
   background-color: #5995DA;
   font-weight: bold;
@@ -21,8 +25,33 @@
 
 }
 
-.call-to-action {
+.button:hover,
+.button:visited:hover {
+
+  color: #FFF;
+  background-color: #76AEED;
+}
+
+.button:active,
+.button:visited:active {
+
+  color: active;
+  background-color: #5995DA;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
   font-style: italic;
+  background-color: #EEB75A;
+}
+
+.call-t0-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
   background-color: #EEB75A;
 }
 .synopsis em {
@@ -56,6 +85,8 @@ a:visited:active {
   color: red;
 }
 
-/*pseudo class selector for buttons*/
+
 /* requires that the buttons be changed to a <a href> element instead of
 generic <div> elements*/
+
+/*restoring button styles*/
