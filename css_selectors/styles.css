@@ -25,3 +25,6 @@
   font-style: italic;
   background-color: #EEB75A;
 }
+.synopsis em {
+  font-style: normal;
+}
