@@ -89,7 +89,14 @@ a:visited:active {
 /* requires that the buttons be changed to a <a href> element instead of
 generic <div> elements*/
 
-/*pseudo Clases for structure*/
+/*pseudo Clases for structure
+selects a specific element without having to alter the html at all*/
 p:last-of-type {
   marging-bottom: 50px;
+}
+
+/*caveat or child selector*/
+.page > p:first-of-type {
+  color: #7E8184;
+  font-style: italic;
 }
