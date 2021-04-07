@@ -28,6 +28,7 @@
 .synopsis em {
   font-style: normal;
 }
+/* pseudo class selectors for links*/
 
 a:link {
   color: blue;
@@ -54,3 +55,7 @@ a:visited:hover{
 a:visited:active {
   color: red;
 }
+
+/*pseudo class selector for buttons*/
+/* requires that the buttons be changed to a <a href> element instead of
+generic <div> elements*/
