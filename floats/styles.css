@@ -8,6 +8,7 @@
 .page {
   width: 900px;
   margin: 0 auto;
+  border: 1px solid red;
 }
 .menu{
 
@@ -18,7 +19,7 @@
 .sidebar {
   float:left;
   width: 200px;
-  height: 500px;
+  height: 300px;
   background-color: #F09A9D; /*Red*/
 }
 
@@ -29,6 +30,7 @@
   background-color: #F5CF8E;
 }
  .footer {
-   height: 500px;
+   clear: both;
+   height: 200px;
    background-color: #D6E9FE;
  }
